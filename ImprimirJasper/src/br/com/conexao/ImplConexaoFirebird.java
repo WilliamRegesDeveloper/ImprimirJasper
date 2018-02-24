@@ -5,7 +5,7 @@ import java.sql.DriverManager;
 import java.sql.SQLException;
 
 /**
- * Classe implementação para conexão ao banco de dados
+ * Classe implementação para conexão a um banco de dados
  * firebird versão 2.5
  * @author willi
  *
