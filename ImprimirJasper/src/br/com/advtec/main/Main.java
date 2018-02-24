@@ -21,6 +21,11 @@ import net.sf.jasperreports.export.SimpleOutputStreamExporterOutput;
 import br.com.conexao.SingletonConexaoFactory;
 import br.com.relatorio.RelatorioFactory;
 
+/**
+* classe integrada a um ERP onde o mesmo envia parametros para 
+  o args no objeto Main e esse transforma esse args em parametro
+  de entrada para os critérios de uma query
+*/
 public class Main {
 
 	public static void main(String[] args) {
