@@ -32,7 +32,7 @@ public class Main {
 		// TODO Auto-generated method stub
 		
 		if (args == null) {
-            JOptionPane.showMessageDialog(null, "Nao tem parametro", "Desenvolvedor", 0);
+            JOptionPane.showMessageDialog(null, "Nao tem parametro", "Insira parametros de entrada", 0);
             System.exit(0);
             return;
         }
