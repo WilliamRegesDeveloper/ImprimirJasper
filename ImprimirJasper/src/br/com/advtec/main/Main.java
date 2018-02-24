@@ -63,7 +63,7 @@ public class Main {
 		try {
 			
 			long nomeExport = System.currentTimeMillis();
-			
+			//Busca o relatório na pasta, associa um map de parametros e conecta ao banco de dados para lançar a query
 			JasperPrint jasperPrint = JasperFillManager.fillReport(mapCaminhos.get(RelatorioFactory.PATH_ARQUIVO), map, connection);
 			Exporter<ExporterInput,PdfReportConfiguration,PdfExporterConfiguration,OutputStreamExporterOutput> jrPdfExporter = new JRPdfExporter();
 			jrPdfExporter.setExporterInput(new SimpleExporterInput(jasperPrint));
