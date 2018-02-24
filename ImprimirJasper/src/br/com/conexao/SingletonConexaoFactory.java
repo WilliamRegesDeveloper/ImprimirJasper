@@ -7,6 +7,11 @@ import java.io.IOException;
 import java.sql.Connection;
 import java.util.Properties;
 
+/**
+ * Singleton: Garante que a aplicação mantenha uma única conexão ao banco
+ * @author willi
+ *
+ */
 public abstract class SingletonConexaoFactory{
 	
 	private  static String url;
