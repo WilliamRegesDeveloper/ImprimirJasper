@@ -4,6 +4,12 @@ import java.sql.Connection;
 import java.sql.DriverManager;
 import java.sql.SQLException;
 
+/**
+ * Classe implementação para conexão ao banco de dados
+ * firebird versão 2.5
+ * @author willi
+ *
+ */
 public class ImplConexaoFirebird implements InterfaceConexao {
 
 	private String url;
