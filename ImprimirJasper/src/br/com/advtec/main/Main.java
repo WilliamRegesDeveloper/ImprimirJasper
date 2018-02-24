@@ -76,7 +76,9 @@ public class Main {
 			jrPdfExporter.setExporterInput(new SimpleExporterInput(jasperPrint));
 			jrPdfExporter.setExporterOutput(new SimpleOutputStreamExporterOutput(mapCaminhos.get(RelatorioFactory.PATH_CACHE)+"/"+nomeExport+".pdf"));
 			jrPdfExporter.exportReport();
-						
+				
+			
+			/**abre arquivo gerado direto em alguma aplicação padrão que suporte extensão .pdf*/
 			Runtime.getRuntime().exec("cmd.exe /C "+mapCaminhos.get(RelatorioFactory.PATH_CACHE)+"/"+nomeExport+".pdf");
 			
 
